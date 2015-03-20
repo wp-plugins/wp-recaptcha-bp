@@ -2,7 +2,7 @@
 Contributors: elrata_
 Tags: comments, registration, recaptcha, antispam, captcha, buddypress
 Requires at least: 2.7
-Tested up to: 2.9.1
+Tested up to: 4.1.1
 Stable tag: 4.1
 
 Integrates reCAPTCHA anti-spam methods with WordPress sites using BuddyPress plugin, including comment and registration spam protection.
@@ -10,7 +10,13 @@ Integrates reCAPTCHA anti-spam methods with WordPress sites using BuddyPress plu
 == Description ==
 
 This is a small modification of the wp-recaptcha plugin to make it work with
-BuddyPress.
+BuddyPress. Currently uses recaptcha v2 (the last one).
+
+You only need this plugin if you use Buddypress with wordpress and want a
+recaptcha at the registration page.
+
+It is always rebased on top of wp-recaptcha. See
+https://github.com/rata/wp-recaptcha-bp for more info
 
 What is reCAPTCHA?
 
